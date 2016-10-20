@@ -2,7 +2,56 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f5b4f098-ed53-425f-b601-cc89a23a8e1d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/profile_icons/charles-icon.png" afterPath="$PROJECT_DIR$/img/profile_icons/charles-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/BrandonBuchanan.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/uolf-style (1).css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/uolf-style (2).css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/Ostrich Dashed (1).ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/Ostrich Dashed (2).ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/Ostrich Light (1).ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/Ostrich Light (2).ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/Ostrich Rounded (1).ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/Ostrich Rounded (2).ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/OstrichBlack (1).ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/OstrichBlack (2).ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/OstrichBold (1).ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/OstrichBold (2).ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/OstrichRegular (1).ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/OstrichRegular (2).ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/alf-icon (1).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/alf-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/bg2 (1).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/bill-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/cc-slide-1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/cc-slide-2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/cc-slide-3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/cc-slide-4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/corey-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/junior-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/junior_bounous.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kiosk.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/original_media/Alf1.tif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/original_media/Alf2.tif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/original_media/Alf3.tif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/original_media/Bill1.tif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/original_media/Bill2.tif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/original_media/Bill3.tif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/original_media/Club1.tif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/original_media/Club2.tif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/original_media/Club3.tif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/original_media/Club4.tif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/original_media/Club5.tif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/original_media/Corey1.tif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/original_media/Corey2.tif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/original_media/Corey3.TIF" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/original_media/Junior1.tif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/original_media/Junior2.tif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/original_media/Junior3.tif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/original_media/Ralph1.tif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/original_media/Ralph2.tif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uolf-app.html" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/css/dwn-menu.css" afterPath="$PROJECT_DIR$/fonts/dwn-menu.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/css/uolf-style.css" afterPath="$PROJECT_DIR$/fonts/uolf-style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cross-country.html" afterPath="$PROJECT_DIR$/cross-country.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/cross_country_style.css" afterPath="$PROJECT_DIR$/css/cross_country_style.css" />
@@ -31,18 +80,8 @@
       <file leaf-file-name="cross-country.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cross-country.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="604">
-              <caret line="38" column="50" selection-start-line="38" selection-start-column="50" selection-end-line="38" selection-end-column="50" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cross_country.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/cross_country.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6542">
-              <caret line="204" column="4" selection-start-line="204" selection-start-column="4" selection-end-line="204" selection-end-column="4" />
+            <state relative-caret-position="594">
+              <caret line="66" column="28" selection-start-line="66" selection-start-column="28" selection-end-line="66" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -51,8 +90,8 @@
       <file leaf-file-name="inactivity.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/inactivity.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="957">
-              <caret line="29" column="16" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
+            <state relative-caret-position="264">
+              <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -61,8 +100,8 @@
       <file leaf-file-name="cross_country_style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/cross_country_style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1500">
-              <caret line="388" column="17" selection-start-line="388" selection-start-column="17" selection-end-line="388" selection-end-column="17" />
+            <state relative-caret-position="1569">
+              <caret line="395" column="17" selection-start-line="395" selection-start-column="17" selection-end-line="395" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -76,9 +115,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/css/cross_country_style.css" />
         <option value="$PROJECT_DIR$/cross-country.html" />
+        <option value="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
         <option value="$PROJECT_DIR$/js/cross_country.js" />
+        <option value="$PROJECT_DIR$/css/cross_country_style.css" />
         <option value="$PROJECT_DIR$/js/inactivity.js" />
       </list>
     </option>
@@ -128,27 +168,13 @@
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="External Dependencies">
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="C:">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="Users">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="brand">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="Google Drive">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="Work">
+            <PATH_ELEMENT USER_OBJECT="cross_country">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
@@ -162,6 +188,10 @@
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="css">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -172,14 +202,15 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="RemoteServers" />
+    <property name="settings.editor.selected.configurable" value="copyright" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../FreedomPrep" />
     <property name="js-jscs-nodeInterpreter" value="C:\dev-languages\nodejs\node.exe" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\brand\Google Drive\Work\uolf\cross_country\fonts" />
       <recent name="C:\Users\brand\Google Drive\Work\uolf\cross_country\img\main_slide" />
     </key>
   </component>
@@ -244,12 +275,12 @@
       <workItem from="1475520707606" duration="7318000" />
       <workItem from="1476051147103" duration="868000" />
       <workItem from="1476052282815" duration="4065000" />
-      <workItem from="1476843510917" duration="5092000" />
+      <workItem from="1476843510917" duration="10126000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17343000" />
+    <option name="totallyTimeSpent" value="22377000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -351,7 +382,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/uolf-style.css">
+    <entry file="file://$PROJECT_DIR$/fonts/uolf-style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
           <caret line="165" column="6" selection-start-line="165" selection-start-column="4" selection-end-line="165" selection-end-column="6" />
@@ -361,37 +392,69 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/ThreeCanvas.js" />
     <entry file="file://$PROJECT_DIR$/js/app.js" />
-    <entry file="file://$PROJECT_DIR$/css/cross_country_style.css">
+    <entry file="file://$PROJECT_DIR$/.idea/copyright/BrandonBuchanan.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1500">
-          <caret line="388" column="17" selection-start-line="388" selection-start-column="17" selection-end-line="388" selection-end-column="17" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cross-country.html">
+    <entry file="file://$PROJECT_DIR$/.idea/copyright/profiles_settings.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="604">
-          <caret line="38" column="50" selection-start-line="38" selection-start-column="50" selection-end-line="38" selection-end-column="50" />
+        <state relative-caret-position="66">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/cross_country.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6542">
-          <caret line="204" column="4" selection-start-line="204" selection-start-column="4" selection-end-line="204" selection-end-column="4" />
+        <state relative-caret-position="132">
+          <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cross-country.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="66" column="28" selection-start-line="66" selection-start-column="28" selection-end-line="66" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/cross_country_style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1569">
+          <caret line="395" column="17" selection-start-line="395" selection-start-column="17" selection-end-line="395" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/inactivity.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="957">
-          <caret line="29" column="16" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
+        <state relative-caret-position="264">
+          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="Copyright.UI">
+        <settings>
+          <last-edited>BrandonBuchanan</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

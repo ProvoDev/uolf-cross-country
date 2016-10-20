@@ -6,7 +6,7 @@
  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
  */
-var refreshMinutes = 1;
+var refreshMinutes = 7;
 
 //starts the idleTime count at 0
 var idleTime = 0;
@@ -18,7 +18,7 @@ var idleTime = 0;
 function checkInactivity()
 {
     //Increment the idle time counter every minute.
-    var idleInterval = setInterval(timerIncrement, 60000); // 1 minute
+    var idleInterval = setInterval(timerIncrement, 6000); // 1 minute
 
     //Zero the idle timer on mouse movement.
     $(this).mousemove(function (e) {

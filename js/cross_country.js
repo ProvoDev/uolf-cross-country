@@ -1,27 +1,26 @@
 // JavaScript Document
 var isViewing = false;
+
+//This function is callend when a skier's box is pressed
+//the function will expand the box and enlarge the picture.
 function expandBox(boxId) {
 
-    var dataname = $(boxId).attr("data-name");
-
-    runCounter(dataname);
-	console.log(dataname);
+    //Selects the image for the selected skiier
   	var boxImg = $(boxId).next();
+
+    //selects the parent element of the box
   	var parentId = $(boxId).parent();
+
+    //selects the full image that is currently hidden
 	var boxImgFull = $(boxId).siblings(".dwn-full-img");
-	
-  	// $(boxImg).css('height', '500px');
-  	// $(boxImg).css('width', '500px');
+
+    //hides the profile image
     $(boxImg).hide();
 
-  	// $(boxImg).css('z-index', '20001');
-	// $(boxImg).css('top', '202px');
-	// $(boxImg).css('left', '102px');
 	$(boxImg).css('border-radius', '10px');
-	
 	var boxTitle = $(parentId).find('.dwn-main-title');
 
-	
+	//Shows the title for the box and adds these css properties
 	$(boxTitle).css('z-index', '20002');
 	$(boxTitle).css('top', '70px');
 	$(boxTitle).css('left', '62px');
@@ -35,7 +34,8 @@ function expandBox(boxId) {
 	
 	var boxSub = $(parentId).find('.dwn-main-subtitle');
 	$(boxSub).show();
-	
+
+    //makes box go fullscreen
 	$(boxId).css('height', '1100px');
 	$(boxId).css('width', '1156px');
 	$(boxId).css('height', '800px');
@@ -46,78 +46,89 @@ function expandBox(boxId) {
 	$('#close_btn').show();
     $(boxImgFull).show(500);
 
-
-  $('#close_btn').click(function() {
-	  $(boxId).removeAttr('style');
-	  $(boxImg).removeAttr('style');
-	  $(boxTitle).removeAttr('style');
-	  $(boxBody).hide();
-	  $('#close_btn').hide();
-	  $('#shade_box').hide();
-	  $('.dwn-main-subtitle').hide();
-      $('.dwn-full-img').hide();
-  });
+    //Clicking the close button will cause the large
+    //box to go hidden along with it's content
+    $('#close_btn').click(function() {
+	    $(boxId).removeAttr('style');
+	    $(boxImg).removeAttr('style');
+        $(boxTitle).removeAttr('style');
+        $(boxBody).hide();
+        $('#close_btn').hide();
+        $('#shade_box').hide();
+        $('.dwn-main-subtitle').hide();
+        $('.dwn-full-img').hide();
+    });
   
 }
 
 $(document).ready(function() {
+
+    //Intially hides these elements
     $('.dwn-full-img').hide();
-  $('#shade_box').hide();
-  $('#close_btn').hide();
-  $('.dwn-main-body').hide();
-  $('.dwn-main-subtitle').hide();
-  $('#menu').hide();
-  moveRight();
-  
-  $('#dwn_item_1').click(function() {
-	  expandBox('#item_box_1');
-  });
+    $('#shade_box').hide();
+    $('#close_btn').hide();
+    $('.dwn-main-body').hide();
+    $('.dwn-main-subtitle').hide();
+    $('#menu').hide();
+
+    //fires the opening slide show
+    moveRight();
+
+    //These listen for a click and expands the related element
+    $('#dwn_item_1').click(function() {
+        expandBox('#item_box_1');
+    });
   
     $('#dwn_item_2').click(function() {
 	  expandBox('#item_box_2');
-  });
+    });
   
     $('#dwn_item_3').click(function() {
 	  expandBox('#item_box_3');
-  });
+    });
   
     $('#dwn_item_4').click(function() {
 	  expandBox('#item_box_4');
-  });
+    });
   
     $('#dwn_item_5').click(function() {
 	  expandBox('#item_box_5');
-  });
+    });
   
     $('#dwn_item_6').click(function() {
 	  expandBox('#item_box_6');
-  });
-  
+    });
+
+    //Click listener for main begin button
     $('#save-btn').click(function() {
-	  $('#saver').hide();
-	  $('#menu').show();
+        $('#saver').hide();
+	    $('#menu').show();
 		checkInactivity();
-  });
+    });
   
   
   
-   $('#checkbox').change(function(){
-    setInterval(function () {
-        moveRight();
-    }, 3000);
-  });
-  
+    $('#checkbox').change(function(){
+
+        setInterval(function () {
+            moveRight();
+        }, 3000);
+    });
+
+    //gets slider properties
 	var slideCount = $('#slider ul li').length;
 	var slideWidth = $('#slider ul li').width();
 	var slideHeight = $('#slider ul li').height();
 	var sliderUlWidth = slideCount * slideWidth;
-	
+
+    //sets the slider properties for element
 	$('#slider').css({ width: slideWidth, height: slideHeight });
-	
 	$('#slider ul').css({ width: sliderUlWidth, marginLeft: - slideWidth });
-	
+
+    //Adds the  next slide to the
     $('#slider ul li:last-child').prependTo('#slider ul');
 
+    //Moves the slide left
     function moveLeft() {
         $('#slider ul').animate({
             left: + slideWidth
@@ -128,6 +139,7 @@ $(document).ready(function() {
 		setTimeout(moveLeft, 5000);
     }
 
+    //moves the slide right
     function moveRight() {
         $('#slider ul').animate({
             left: - slideWidth

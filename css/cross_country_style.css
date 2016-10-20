@@ -213,10 +213,14 @@
 	width: 450px;
 	text-align: left;
 	top: 200px;
-	left: 700px;
+	left: 670px;
 	font-size: 30px;
 	z-index: 20003;
-	letter-spacing: 1px;
+    border-width: 3px;
+    border-style: double;
+    border-color: #fffff;
+    padding: 20px;
+    border-radius: 10px;
 }
 
 .dwn-main-subtitle{
@@ -361,7 +365,7 @@ a.control_prev, a.control_next {
   font-weight: 600;
   font-size: 18px;
   opacity: 0.8;
-  cursor: pointer;
+  cursor: none;
 }
 
 a.control_prev:hover, a.control_next:hover {
@@ -388,3 +392,5 @@ a.control_next {
 .initiallyHidden{
 	display:none;
 }
+
+* {cursor: none;}

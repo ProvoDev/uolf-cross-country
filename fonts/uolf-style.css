@@ -1,0 +1,530 @@
+/*
+ * Copyright (c) 2016. This software is licensed to Utah Olympic Legacy Foundation to use without expiration.  The use of this software is limited to the single kiosk used for "Cross-Country" athlete display and may not be duplicated without express permission of the software owner and developer Brandon Buchanan.  Brandon Buchanan maintains the intellectual property rights of this software and may use all or part of the code to duplicate for other personal or commercial use.
+ */
+
+/* Ostrich Sans */
+@font-face {
+	font-family: 'Ostrich Sans';
+	src: url('OstrichRegular.ttf');
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Ostrich Sans';
+	src: url('OstrichBold.ttf');
+	font-weight: 700;
+	font-style: bold;
+}
+@font-face {
+	font-family: 'Ostrich Sans';
+	src: url('OstrichBlack.ttf');
+	font-weight: 600;
+}
+
+/* CSS Document */
+html{
+	cursor: crosshair;	
+	overflow: hidden;
+}
+
+body{
+	background-color: #0e0e0e;	
+}
+
+.bg-img{
+	position: absolute;
+	top: 0;
+	left: 0;	
+}
+
+.menu, .submenu, .saver{
+	transition: all 0.2s ease-in-out;	
+	overflow: hidden;
+}
+
+.title{
+	position: absolute;
+	top: 0;
+	left: 930px;
+	width: 300px;
+	height: 100px;
+	background-color: #474F59;
+	font-size: 50px;
+	font-family: 'Ostrich Sans';
+	font-weight: 600;
+	padding-left: 50px;
+	color: #fff;
+	letter-spacing: 10px;
+	
+}
+
+.title-arrow{
+	position: absolute;
+	top: -100px;
+	left: 830px;
+	border-top: 100px solid transparent;
+	border-bottom: 100px solid transparent;
+	border-right: 100px solid #474F59;
+}
+
+.menu-title{
+	position: absolute;
+	top: 0;
+	left: 780px;
+	width: 450px;
+	height: 100px;
+	background-color: #474F59;
+	font-size: 50px;
+	font-family: 'Ostrich Sans';
+	font-weight: 600;
+	padding-left: 50px;
+	color: #fff;
+	letter-spacing: 10px;
+}
+
+.menu-title-arrow{
+	position: absolute;
+	top: -100px;
+	left: 680px;
+	border-top: 100px solid transparent;
+	border-bottom: 100px solid transparent;
+	border-right: 100px solid #474F59;
+}
+
+.menu-box{
+	position: absolute;
+	top: 250px;
+	background-color: #eeeeee;
+	width: 300px;
+	height: 500px;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  	transition: all 0.2s ease-in-out;
+}
+
+.menu-box-1{
+	background-color: #1BA1BF; 
+	left: 140px;
+}
+
+.menu-box-2{
+	background-color: #D9A404; 
+	left: 490px;
+}
+
+.menu-box-3{
+	background-color: #26A68E; 
+	left: 840px;
+}
+
+.vertical-text {
+	transform: rotate(90deg);
+	transform-origin: left top 0;
+}
+
+.menu-box-text{
+	font-size: 80px;
+	font-family: 'Ostrich Sans';
+	font-weight: bold;
+	position: absolute;
+	top: 300px;
+	color: #fff;
+	width: 50px;
+	height: 500px;
+	letter-spacing: 20px;
+}
+
+.side-box-text{
+	font-size: 80px;
+	font-family: 'Ostrich Sans';
+	font-weight: bold;
+	position: absolute;
+	top: 50px;
+	left: 100px;
+	color: #fff;
+	width: 1000px;
+	height: 500px;
+	letter-spacing: 20px;
+	z-index: 9999;
+	transform: rotate(90deg);
+	transform-origin: left top 0;
+}
+
+.menu-box-1-text{
+	left: 220px;
+}
+
+.menu-box-2-text{
+	left: 570px;
+}
+
+.menu-box-3-text{
+	left: 920px;
+}
+
+.side-nav{
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1000;	
+	height: 1024px;
+	max-width: 400px;
+}
+
+.side-nav-item{
+	margin-top: 50px;
+}
+
+.item-icon{
+	margin-top: 10px;
+	max-height: 50px;
+	width: auto;	
+}
+.item1{
+	top: 100px;	
+}
+
+.item2{
+	top: 300px;	
+}
+
+.item3{
+	top: 500px;	
+}
+
+.item4{
+	top: 700px;	
+}
+
+.side-nav-body{
+	font-family: 'Ostrich Sans';
+	font-weight: bold;
+	position: absolute;
+	left: 0;
+	height: 100px;
+	width: 280px;
+	font-size: 50px;
+	padding-left: 20px;
+  	transition: all 0.2s ease-in-out;
+}
+
+.vtext{
+	line-height: 100px;
+}
+
+.connect-line-1{
+	position: absolute;
+	height: 45px;
+	border-bottom: 10px solid #1BA1BF;
+	width: 70px;
+	left: 340px;
+		
+}
+
+.connect-line-2{
+	position: absolute;
+	height: 45px;
+	border-bottom: 10px solid #D9A404;
+	width: 70px;
+	left: 340px;
+}
+
+.connect-line-3{
+	position: absolute;
+	height: 45px;
+	border-bottom: 10px solid #26A68E;
+	width: 70px;
+	left: 340px;
+}
+
+.connect-line-4{
+	position: absolute;
+	height: 45px;
+	border-bottom: 10px solid #D85051;
+	width: 70px;
+	left: 340px;
+}
+
+.connect-line-center{
+	position: absolute;
+	top: 150px;
+	height: 300px;
+	border-bottom: 10px solid #1BA1BF;
+	border-left: 10px solid #1BA1BF;
+	width: 200px;
+	left: 400px;
+	border-radius: 10px;	
+}
+
+.side-nav-body:hover{
+	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+.side-nav-arrow{
+	position: absolute;
+	left: 300px;
+	width: 0; 
+	height: 0; 
+	border-top: 50px solid transparent;
+	border-bottom: 50px solid transparent;
+}
+
+.blue { 
+	border-color: #1BA1BF;
+	background-color: #1BA1BF;
+	color: #fff;
+}
+
+.green { 
+	border-color: #26A68E;
+	background-color: #26A68E;
+	color: #fff;
+}
+
+.yellow { 
+	border-color: #D9A404;
+	background-color: #D9A404;
+	color: #fff;
+}
+
+.red { 
+	border-color: #D85051;
+	background-color: #D85051;
+	color: #fff;
+}
+.side-nav-arrow-blue {
+	border-left: 50px solid #1BA1BF;
+}
+
+.side-nav-arrow-yellow {
+	border-left: 50px solid #D9A404;
+}
+
+.side-nav-arrow-green {
+	border-left: 50px solid #26A68E;
+}
+
+.side-nav-arrow-red {
+	border-left: 50px solid #D85051;
+}
+
+/*video box*/
+.vid-box{
+	position: absolute;
+	width: 625px;
+	height: 500px;
+	top: 200px;
+	left: 500px;
+	background-color: #000000;
+	z-index: 50000;	
+	border: 10px solid #1BA1BF;
+	border-radius: 10px;
+	transition: all 0.2s ease-in-out;
+}
+
+.back-vid{
+	position: absolute;
+	width: 1280px;
+	height: 1024px;
+	top: 0px;
+	left: 0px;
+	z-index: 1;	
+	background-color: #000000;
+}
+
+.back-vid > video{
+	width: 100%;
+	background-color: #000000;	
+	margin-top: 30px;
+}
+
+
+.side-title{
+	position: absolute;
+	width: 150px;
+	height: 800px;
+	top: 0px;
+	left: 0px;
+	background-color: #1BA1BF;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  	transition: all 0.2s ease-in-out;	
+	z-index: 100;
+	font-size: 30px;
+	color: #fff;
+}
+
+.side-title-box{
+		position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 20000;
+	transform: rotate(90deg);
+	transform-origin: left top 0;	
+}
+
+.side-title-txt {
+
+	font-size: 50px;
+	color: #fff;
+	font-family: 'Ostrich Sans';
+}
+
+
+.side-title-arrow{
+	position: absolute;
+	top: 650px;
+	left: 0px;
+	border-bottom: 150px solid transparent;
+	border-top: 150px solid transparent;
+	border-left: 150px solid #1BA1BF;
+	z-index: 100;	
+}
+
+.save-button{
+	position: absolute;
+	top: 700px;
+	left: 400px;
+	width: 700px;	
+	height: 150px;
+	z-index: 1000;
+	background-color: #D85051;
+	text-align: center;
+	font-family: 'Ostrich Sans';
+	color: #fff;
+	font-size: 60px;
+	line-height: 150px;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  	transition: all 0.2s ease-in-out;	
+	overflow: hidden;
+}
+
+.save-button:hover{
+	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.menu-title-base{
+	position: absolute;
+	width: 600px;
+	height: 100px;
+	top: 924px;
+	left: 0px;
+	background-color: #474F59;
+	z-index: 10000;
+}
+
+.menu-base-arrow{
+	position: absolute;
+	top: 924px;
+	left: 499px;
+	border-right: 100px solid transparent;
+	border-left: 100px solid transparent;
+	border-bottom: 100px solid #474F59;
+	z-index: 9999;
+}
+
+.title-base{
+	position: absolute;
+	width: 1080px;
+	height: 100px;
+	top: 924px;
+	left: 0;
+	background-color: #1BA1BF;
+	z-index: 10000;
+}
+
+.title-text{
+	font-family: 'Ostrich Sans';
+	position: absolute;
+	font-weight: 500;
+	top: 955px;
+	left: 100px;
+	font-size: 50px;
+	padding-left: 20px;
+	z-index: 10001;
+	color: #fff;
+	letter-spacing: 20px;
+}
+
+.menu-title-text{
+	font-family: 'Ostrich Sans';
+	position: absolute;
+	font-weight: 500;
+	top: 950px;
+	left: 50px;
+	font-size: 50px;
+	padding-left: 20px;
+	z-index: 10001;
+	color: #fff;
+	letter-spacing: 20px;
+}
+
+.base-arrow{
+	position: absolute;
+	top: 924px;
+	left: 980px;
+	border-right: 100px solid transparent;
+	border-left: 100px solid transparent;
+	border-bottom: 100px solid #1BA1BF;
+	z-index: 9999;
+}
+
+.vid-full-btn{
+	position: absolute;
+	top: 750px;
+	left: 620px;
+	width: 400px;	
+	height: 75px;
+	z-index: 10000;
+	background-color: #474F59;
+	text-align: center;
+	font-family: 'Ostrich Sans';
+	letter-spacing: 15px;
+	color: #fff;
+	font-size: 40px;
+	line-height: 75px;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  	transition: all 0.2s ease-in-out;
+}
+
+.vid-close{
+	position: absolute;
+	top: 20px;
+	left: 0;
+	width: 140px;	
+	height: 50px;
+	z-index: 100000;
+	background-color: #474F59;
+	text-align: center;
+	font-family: 'Ostrich Sans';
+	color: #fff;
+	font-size: 30px;
+	line-height: 50px;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  	transition: all 0.2s ease-in-out;
+	letter-spacing: 10px;
+}
+
+.back-btn{
+	position: absolute;
+	top: 10px;
+	left: 0px;
+	width: 140px;	
+	height: 50px;
+	z-index: 10000;
+	background-color: #474F59;
+	text-align: center;
+	font-family: 'Ostrich Sans';
+	color: #fff;
+	font-size: 30px;
+	line-height: 50px;
+	letter-spacing: 10px;
+}
+
+.back-btn-arrow{
+	position: absolute;
+	top: 10px;
+	left: 90px;
+	z-index: 10000;
+	border-right: 50px solid transparent;
+	border-left: 50px solid transparent;
+	border-bottom: 50px solid #474F59;
+}
+
