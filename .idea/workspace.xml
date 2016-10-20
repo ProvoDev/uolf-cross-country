@@ -2,61 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f5b4f098-ed53-425f-b601-cc89a23a8e1d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/BrandonBuchanan.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/uolf-style (1).css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/uolf-style (2).css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/Ostrich Dashed (1).ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/Ostrich Dashed (2).ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/Ostrich Light (1).ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/Ostrich Light (2).ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/Ostrich Rounded (1).ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/Ostrich Rounded (2).ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/OstrichBlack (1).ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/OstrichBlack (2).ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/OstrichBold (1).ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/OstrichBold (2).ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/OstrichRegular (1).ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/OstrichRegular (2).ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/alf-icon (1).png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/alf-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/bg2 (1).png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/bill-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/cc-slide-1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/cc-slide-2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/cc-slide-3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/cc-slide-4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/corey-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/junior-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/junior_bounous.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/kiosk.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/original_media/Alf1.tif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/original_media/Alf2.tif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/original_media/Alf3.tif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/original_media/Bill1.tif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/original_media/Bill2.tif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/original_media/Bill3.tif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/original_media/Club1.tif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/original_media/Club2.tif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/original_media/Club3.tif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/original_media/Club4.tif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/original_media/Club5.tif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/original_media/Corey1.tif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/original_media/Corey2.tif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/original_media/Corey3.TIF" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/original_media/Junior1.tif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/original_media/Junior2.tif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/original_media/Junior3.tif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/original_media/Ralph1.tif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/original_media/Ralph2.tif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uolf-app.html" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/css/dwn-menu.css" afterPath="$PROJECT_DIR$/fonts/dwn-menu.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/css/uolf-style.css" afterPath="$PROJECT_DIR$/fonts/uolf-style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cross-country.html" afterPath="$PROJECT_DIR$/cross-country.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/cross_country_style.css" afterPath="$PROJECT_DIR$/css/cross_country_style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/cross_country.js" afterPath="$PROJECT_DIR$/js/cross_country.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/inactivity.js" afterPath="$PROJECT_DIR$/js/inactivity.js" />
     </list>
     <ignored path="uolf.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -77,31 +24,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="cross-country.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="cross-country.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/cross-country.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="594">
-              <caret line="66" column="28" selection-start-line="66" selection-start-column="28" selection-end-line="66" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="inactivity.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/js/inactivity.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cross_country_style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/cross_country_style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1569">
-              <caret line="395" column="17" selection-start-line="395" selection-start-column="17" selection-end-line="395" selection-end-column="17" />
+            <state relative-caret-position="459">
+              <caret line="88" column="74" selection-start-line="88" selection-start-column="74" selection-end-line="88" selection-end-column="74" />
               <folding />
             </state>
           </provider>
@@ -115,11 +42,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/cross-country.html" />
         <option value="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
         <option value="$PROJECT_DIR$/js/cross_country.js" />
         <option value="$PROJECT_DIR$/css/cross_country_style.css" />
         <option value="$PROJECT_DIR$/js/inactivity.js" />
+        <option value="$PROJECT_DIR$/cross-country.html" />
       </list>
     </option>
   </component>
@@ -275,12 +202,12 @@
       <workItem from="1475520707606" duration="7318000" />
       <workItem from="1476051147103" duration="868000" />
       <workItem from="1476052282815" duration="4065000" />
-      <workItem from="1476843510917" duration="10126000" />
+      <workItem from="1476843510917" duration="11010000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22377000" />
+    <option name="totallyTimeSpent" value="23261000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -302,7 +229,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15831557" sideWeight="0.5056543" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28177392" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28177392" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -416,10 +343,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cross-country.html">
+    <entry file="file://$PROJECT_DIR$/js/inactivity.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="66" column="28" selection-start-line="66" selection-start-column="28" selection-end-line="66" selection-end-column="28" />
+        <state relative-caret-position="693">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -432,10 +359,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/inactivity.js">
+    <entry file="file://$PROJECT_DIR$/cross-country.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+        <state relative-caret-position="459">
+          <caret line="88" column="74" selection-start-line="88" selection-start-column="74" selection-end-line="88" selection-end-column="74" />
           <folding />
         </state>
       </provider>
