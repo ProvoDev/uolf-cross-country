@@ -27,8 +27,8 @@
       <file leaf-file-name="cross-country.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/cross-country.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="88" column="74" selection-start-line="88" selection-start-column="74" selection-end-line="88" selection-end-column="74" />
+            <state relative-caret-position="825">
+              <caret line="31" column="91" selection-start-line="31" selection-start-column="91" selection-end-line="31" selection-end-column="91" />
               <folding />
             </state>
           </provider>
@@ -202,12 +202,12 @@
       <workItem from="1475520707606" duration="7318000" />
       <workItem from="1476051147103" duration="868000" />
       <workItem from="1476052282815" duration="4065000" />
-      <workItem from="1476843510917" duration="11010000" />
+      <workItem from="1476843510917" duration="11729000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23261000" />
+    <option name="totallyTimeSpent" value="23980000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -361,8 +361,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cross-country.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="88" column="74" selection-start-line="88" selection-start-column="74" selection-end-line="88" selection-end-column="74" />
+        <state relative-caret-position="825">
+          <caret line="31" column="91" selection-start-line="31" selection-start-column="91" selection-end-line="31" selection-end-column="91" />
           <folding />
         </state>
       </provider>
